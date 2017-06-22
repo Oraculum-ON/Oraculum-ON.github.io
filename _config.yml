@@ -1,0 +1,53 @@
+# User Settings | Edit these according to your site
+
+title: Oraculum Network
+email: patrix.sbs+github@gmail.com
+author: Patrick Kaminski
+
+description: > # this means to ignore newlines until "baseurl:"
+  Oraculum Network se trata de espa&ccedil;o utilizado para centralizar os projetos derivados do projeto OraculumPHP criado em 2009. Sinta-se a vontade para explorar e evoluir as ideias aqui compartilhadas!
+
+url: "http://oraculum-on.github.io" # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog
+twitter_username: patrixsbs
+github_username:  patrix
+
+permalink:          /:year/:title.html
+
+paginate: 4
+paginate_path: "/page/:num"
+comments: true
+
+heading_font: Lobster 
+about_footer: true
+short_bio: >
+    Programador 💻 Palestrante 👔 Músico 🎼 e Viajante 🌎
+profile_picture: https://avatars1.githubusercontent.com/u/122139?v=3&s=460
+
+google_analytics: false
+tracking_id: 
+
+# Build settings | Do not edit anything below this
+markdown: kramdown
+
+gems:
+  - jekyll-paginate
+
+sass:
+  style:            compressed
+  sass_dir:         _sass
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
