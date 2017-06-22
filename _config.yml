@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Oraculum Network se trata de espa&ccedil;o utilizado para centralizar os projetos derivados do projeto OraculumPHP criado em 2009. Sinta-se a vontade para explorar e evoluir as ideias aqui compartilhadas!
 
 url: "http://oraculum-on.github.io" # the base hostname & protocol for your site
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: patrixsbs
 github_username:  patrix
 
@@ -21,7 +21,7 @@ comments: true
 heading_font: Lobster 
 about_footer: true
 short_bio: >
-    Programador 💻 Palestrante 👔 Músico 🎼 e Viajante 🌎
+    Programador, Palestrante, M&uacute;sico e Viajante
 profile_picture: https://avatars1.githubusercontent.com/u/122139?v=3&s=460
 
 google_analytics: false
