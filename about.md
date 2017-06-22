@@ -1,8 +1,8 @@
 ---
 layout: about
-title: About
+title: Sobre
 author: Patrick
-permalink: /about/
+permalink: /sobre/
 ---
 
 <a href="http://patrickkaminski.com/">patrickkaminski.com</a>
